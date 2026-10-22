@@ -16,8 +16,8 @@ INSERT INTO admin (nama, email, password) VALUES
 -- id_pengguna dan id_admin harus sudah ada di tabel induk
 INSERT INTO setoran (id_pengguna, id_admin, tanggal_setoran, status_setoran, foto_bukti) VALUES
 (1, 1, '2026-10-20 08:30:00', 'menunggu',  'bukti_001.jpg'),
-(2, 2, '2026-10-21 10:15:00', 'diverifikasi', 'bukti_002.jpg'),
-(3, 1, '2026-10-22 09:00:00', 'menunggu',  'bukti_003.jpg');
+(2, 2, '2026-10-21 10:15:00', 'disetujui', 'bukti_002.jpg'),
+(3, 1, '2026-10-22 09:00:00', 'ditolak',  'bukti_003.jpg');
 
 
 
